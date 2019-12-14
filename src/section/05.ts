@@ -79,3 +79,11 @@ const getLength = (content: string | number): number => {
         return content.toString().length;
     }
 }
+
+// tslint:disable-next-line: no-console
+console.log(getLength("123"));
+
+// tslint:disable-next-line: no-console
+console.log(getLength(123));
+
+
